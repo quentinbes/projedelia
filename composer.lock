@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a07d40c7ae156e9a24c07c9b7f59d320",
-    "content-hash": "6fbbec7f17a5ceaf12c61a664672ff31",
+    "hash": "51b17daea7400e8d652e028a5bc2aa16",
+    "content-hash": "8bf0e5a8f8928d00017d4f928180a2c9",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -285,6 +285,53 @@
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
             "time": "2015-06-10 10:35:13"
+        },
+        {
+            "name": "chobie/jira-api-restclient",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chobie/jira-api-restclient.git",
+                "reference": "68c082d2bbcab5e9ba97e8b46496b3b1afceed6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chobie/jira-api-restclient/zipball/68c082d2bbcab5e9ba97e8b46496b3b1afceed6f",
+                "reference": "68c082d2bbcab5e9ba97e8b46496b3b1afceed6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Jira_": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shuhei Tanuma",
+                    "email": "chobieeee@php.net",
+                    "homepage": "http://blog.stfalcon.com"
+                }
+            ],
+            "description": "JIRA REST API.",
+            "keywords": [
+                "api",
+                "jira",
+                "rest"
+            ],
+            "time": "2014-07-27 11:40:44"
         },
         {
             "name": "ircmaxell/password-compat",
